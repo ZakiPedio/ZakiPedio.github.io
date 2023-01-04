@@ -1,0 +1,93 @@
+body {
+    background-color: white;
+    background-image: url("../img/background.jpg");
+    backdrop-filter: blur(10px);
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+#typed {
+    font-family: 'Poppins', sans-serif;
+    color: #D61518;
+}
+
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-rows: 0.9fr 10.0fr; 
+    gap: 0px 0px; 
+}
+
+.text-center-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+    
+.banner { 
+    grid-area: 2 / 1 / 3 / 2; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 0 3px;
+    color: #D61518;
+}
+
+img {
+    display: block;
+    max-width: 30%;
+    height: auto;
+}
+
+.meme {
+    max-width: 50%;
+}
+
+#whoami, #skills, #goals, #passions, #blog {
+    scroll-margin-top: 60px;
+}
+
+a {
+    color: inherit;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 480px) {
+    body {
+      font-size: 100%;
+    }
+    img {
+        max-width: 80%;
+    }
+    .meme {
+        max-width: 100%;
+    }
+    .title-champ {
+        font-size: 120%;
+    }
+}

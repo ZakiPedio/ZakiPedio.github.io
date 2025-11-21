@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /
+
+# Forbidden realms for skiddies and lamers
+User-agent: Skiddies
+Disallow: /
+
+User-agent: Lamers
+Disallow: /
+
+User-agent: Real-Hackers
+Allow: /
+
+# If you're reading this, you're either a bot or a curious dev. Hello!
+# Bots, play nice and don't mess things up, ok?

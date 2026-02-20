@@ -7,9 +7,160 @@
 <title>haxxor stealth terminal</title>
 </head>
 <body>
+  <!-- The website is also available at: http://zakidevlib6uzspcdfgtqamqk6xi5sr7bpegttpmgjghhlhtpkrbg3yd.onion/ -->
 <div class="wrap">
   <div class="screen" role="region" aria-label="site terminal">
     <div id="output" class="line" aria-live="polite"></div>
+      <noscript>
+  <div class="nojs out" aria-hidden="false" role="region" aria-label="static content for no-JS users">
+            <!-- Boot lines -->
+        <div class="out" style="white-space:pre-wrap; font-family:monospace; margin-bottom:8px;">
+POWER: ON
+INITIALIZING SUBSYSTEMS...
+CHECK: STORAGE... OK
+CHECK: NETWORK... minimal
+LOADING PROFILE: haxxor@laptop
+        </div>
+
+        <!-- ASCII art -->
+        <pre class="ascii" style="font-family:monospace; line-height:1; margin:0 0 10px 0;">
+       _                        
+       \*-.                    
+        )  _`-.                 
+       .  : `. .                
+       : _   '  \               
+       ; *` _.   `*-._          
+       `-.-'          `-.       
+         ;       `       `.     
+         :.       .        \    
+         . \  .   :   .-'   .   
+         '  `+.;  ;  '      :   
+         :  '  |    ;       ;-. 
+         ; '   : :`-:     _.\* ;
+[bug] .*' /  .*' ; .*`- +'  \*' 
+      `*-*   `*-*  `*-*'
+        </pre>
+    <!-- About -->
+    <div class="out">
+      <div><b>about</b></div>
+      <div class="muted" style="white-space:pre-wrap; margin-top:6px">
+I'm Zaki Pedio, an Italian security professional and independent researcher who focuses on red-team techniques and offensive security. Security isn't just my job, it's how I think: I spend my time hunting for weaknesses, building exploits, and designing RF and hardware prototypes that turn theory into testable proof-of-concepts. I started competing in CTFs and, at 16, reached Top-100 on HackTheBox globally; those contests taught me how to solve messy, multi-disciplinary problems fast.
+
+Professionally I work on red-team operations and web application pentesting, and I'm steadily expanding my experience in exploit development, radio-frequency research, hardware-focused testing and embedded devices. I'm hands-on: I experiment with microcontroller prototypes and use my 3D printer to make enclosures and early prototypes so ideas become testable proofs.
+
+My long-term goal is to found or lead a defence-focused company that delivers offensive-informed solutions to real organisations. If you like complicated problems, practical proof-of-concepts and solutions that stand up to real-world adversaries, we'll get along.
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="out" style="margin-top:10px">
+      <div><b>projects</b></div>
+      <table class="table" style="margin-top:6px">
+        <tr>
+          <td>
+            <b><a href="https://github.com/ZakiPedio/AssemblyWebServer" target="_blank" rel="noopener noreferrer">AssemblyWebServer</a></b>
+            <div class="muted small">Minimal web server written in x86-64 assembly</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">assembly</span> <span class="badge">x86-64</span> <span class="badge">webserver</span> <span class="badge">low-level</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://github.com/ZakiPedio/C2Watch" target="_blank" rel="noopener noreferrer">C2Watch</a></b>
+            <div class="muted small">Threat Intelligence framework to monitor C2 in the wild</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">threat-intel</span> <span class="badge">C2</span> <span class="badge">monitoring</span> <span class="badge">framework</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://github.com/ZakiPedio/RRReporter" target="_blank" rel="noopener noreferrer">RRReporter</a></b>
+            <div class="muted small">Simple semi-automatic reporter for bug bounty or other bug-related report</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">bug-bounty</span> <span class="badge">reporting</span> <span class="badge">automation</span> <span class="badge">tool</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://github.com/ZakiPedio/HelloWorld-in-Brainfuck" target="_blank" rel="noopener noreferrer">HelloWorld-in-Brainfuck</a></b>
+            <div class="muted small">Simple HelloWorld in Brainfuck</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">brainfuck</span> <span class="badge">esolang</span> <span class="badge">example</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Articles -->
+    <div class="out" style="margin-top:10px">
+      <div><b>articles</b></div>
+      <table class="table" style="margin-top:6px">
+        <tr>
+          <td>
+            <b><a href="https://blog.zakipedio.dev/malware-analysis/wannacry-the-malware-that-brought-the-world-to-its-knees" target="_blank" rel="noopener noreferrer">WannaCry: The Malware That Brought the World to Its Knees</a></b>
+            <div class="muted small">A deep dive into the global ransomware attack that paralyzed hospitals, businesses, and governments worldwide</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">ransomware</span> <span class="badge">malware-analysis</span> <span class="badge">global-threat</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://blog.zakipedio.dev/malware-analysis/lockbit-3.0-ransomware-as...-a-service" target="_blank" rel="noopener noreferrer">LockBit 3.0: Ransomware as... a Service?</a></b>
+            <div class="muted small">Exploring the RaaS business model and technical evolution of one of the most prolific ransomware families</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">ransomware</span> <span class="badge">RaaS</span> <span class="badge">threat-analysis</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://blog.zakipedio.dev/malware-analysis/remcos-in-the-shadows-a-fileless-multi-stage-attack-dissected" target="_blank" rel="noopener noreferrer">Remcos in the Shadows: A Fileless Multi-Stage Attack Dissected</a></b>
+            <div class="muted small">Analyzing the sophisticated multi-stage delivery and evasion techniques of the Remcos RAT</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">RAT</span> <span class="badge">malware-analysis</span> <span class="badge">evasion-techniques</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <b><a href="https://blog.zakipedio.dev/command-and-control/unmasking-cobalt-strike-a-shodan-powered-hunt" target="_blank" rel="noopener noreferrer">Unmasking Cobalt Strike: A Shodan-Powered Hunt</a></b>
+            <div class="muted small">Leveraging Shodan and network intelligence to identify and track Cobalt Strike C2 infrastructure</div>
+          </td>
+          <td style="text-align:right">
+            <span class="badge">C2</span> <span class="badge">threat-hunting</span> <span class="badge">shodan</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Hall of Fame -->
+    <div class="out" style="margin-top:10px">
+      <div><b>Hall of Fame</b></div>
+      <div class="muted" style="margin-top:6px">
+        - Maldev Academy "The Malware Development Course"<br>
+        - Top 100 in HackTheBox Globally<br>
+        - OliCyber.IT Finals Participant<br>
+        - CyberChallenge.IT Finals Participant (x2)<br>
+        - Cisco CCNA Certified<br>
+        - Cisco IT Essentials Certified<br>
+        - Cambridge English B2 Certified
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="out" style="margin-top:10px">
+      <div><b>contact</b></div>
+      <div class="muted" style="margin-top:6px">
+        Find me on <a href="https://www.linkedin.com/in/zakipedio/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</noscript>
 
     <div class="prompt" style="margin-top:12px">
       <div class="pfx">haxxor@laptop:~$</div>

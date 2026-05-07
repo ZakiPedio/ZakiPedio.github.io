@@ -22,6 +22,12 @@
       about: `I'm Zaki Pedio, an Italian security professional and independent researcher who focuses on red-team techniques and offensive security. Security isn't just my job, it's how I think: I spend my time hunting for weaknesses, building exploits, and designing RF and hardware prototypes that turn theory into testable proof-of-concepts. I started competing in CTFs and, at 16, reached Top-100 on HackTheBox globally; those contests taught me how to solve messy, multi-disciplinary problems fast.\n\nProfessionally I work on red-team operations and web application pentesting, and I'm steadily expanding my experience in exploit development, radio-frequency research, hardware-focused testing and embedded devices. I'm hands-on: I experiment with microcontroller prototypes and use my 3D printer to make enclosures and early prototypes so ideas become testable proofs.\n\nMy long-term goal is to found or lead a defence-focused company that delivers offensive-informed solutions to real organisations. If you like complicated problems, practical proof-of-concepts and solutions that stand up to real-world adversaries, we'll get along.`,
       projects: [
           {
+            "name": "BridgeHead",
+            "desc": "Native C++ access to Active Directory over ADWS, no .NET, no WCF, no HTTP stack.",
+            "tags": ["c++", "active-directory", "ADWS", "red-team", "low-level"],
+            "url": "https://github.com/ZakiPedio/BridgeHead"
+          },
+          {
             "name": "AssemblyWebServer",
             "desc": "Minimal web server written in x86-64 assembly",
             "tags": ["assembly", "x86-64", "webserver", "low-level"],
@@ -307,7 +313,13 @@
 
     function cv(){ println('<span class="muted">no CV uploaded. add a cvUrl in the source.</span>'); }
 
-    function contact(){ println(`Find me on <a href="https://www.linkedin.com/in/zakipedio/" target="_blank" rel="noopener">LinkedIn</a>`); }
+    function contact(){ println(
+      `Find me on <a href="https://www.linkedin.com/in/zakipedio/" target="_blank" rel="noopener">LinkedIn</a><br><br>` +
+      `My email: <a href="mailto:zaki@zakipedio.dev">zaki@zakipedio.dev</a><br>` +
+      `<span class="muted">I also have some aliases if you prefer:<br>` +
+      `&nbsp;&nbsp;<a href="mailto:contact@zakipedio.dev">contact@zakipedio.dev</a><br>` +
+      `&nbsp;&nbsp;<a href="mailto:hello@zakipedio.dev">hello@zakipedio.dev</a></span>`
+    ); }
 
     // NEW secretFlow: derives key client-side and attempts to decrypt public encrypted.json
     async function secretFlow(){

@@ -22,6 +22,12 @@
       about: `I'm Zaki Pedio, an Italian security professional and independent researcher who focuses on red-team techniques and offensive security. Security isn't just my job, it's how I think: I spend my time hunting for weaknesses, building exploits, and designing RF and hardware prototypes that turn theory into testable proof-of-concepts. I started competing in CTFs and, at 16, reached Top-100 on HackTheBox globally; those contests taught me how to solve messy, multi-disciplinary problems fast.\n\nProfessionally I work on red-team operations and web application pentesting, and I'm steadily expanding my experience in exploit development, radio-frequency research, hardware-focused testing and embedded devices. I'm hands-on: I experiment with microcontroller prototypes and use my 3D printer to make enclosures and early prototypes so ideas become testable proofs.\n\nMy long-term goal is to found or lead a defence-focused company that delivers offensive-informed solutions to real organisations. If you like complicated problems, practical proof-of-concepts and solutions that stand up to real-world adversaries, we'll get along.`,
       projects: [
           {
+            "name": "GadgetSniper",
+            "desc": "Scans 64-bit Windows DLLs for call-stack spoofing gadgets using Iced-backed disassembly to eliminate false positives.",
+            "tags": ["c#", "red-team", "reverse-engineering", "windows", "rop"],
+            "url": "https://github.com/ZakiPedio/GadgetSniper"
+          },
+          {
             "name": "BridgeHead",
             "desc": "Native C++ access to Active Directory over ADWS, no .NET, no WCF, no HTTP stack.",
             "tags": ["c++", "active-directory", "ADWS", "red-team", "low-level"],
